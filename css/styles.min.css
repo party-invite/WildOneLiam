@@ -121,14 +121,14 @@ li{
 	h1{
 		font-size: 40px;
 	}
-  
+
 }
 /*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 992px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
 	#blurb{
 		background-color: whitesmoke;
@@ -146,6 +146,10 @@ li{
 	}
 	header{
 		border-bottom: 0px;
+	}
+	#blurb{
+		background-color: whitesmoke;
+		opacity: 0.5;
 	}
 }
 
@@ -177,7 +181,12 @@ li{
 
 	header{
 			border-bottom: 0px;
-	}  
+	}
+
+	#blurb{
+		background-color: whitesmoke;
+		opacity: 0.5;
+	}
 }
 
 @media (min-width: 550px) and (max-width: 767px) and (orientation: landscape) {
@@ -194,6 +203,11 @@ li{
 	}
 	header{
 			border-bottom: 0px;
+	}
+
+	#blurb{
+		background-color: whitesmoke;
+		opacity: 0.5;
 	}
 }
 /* 
@@ -224,6 +238,11 @@ li{
 
 	}
 
+	#blurb{
+		background-color: whitesmoke;
+		opacity: 0.5;
+	}
+
 }
 
 /* 
@@ -241,7 +260,7 @@ li{
 
 	
   	#logo-mel {
-	    height: 50px;
+	    height: 70px;
 	    padding-left: 0px;
 	}
 
@@ -251,6 +270,11 @@ li{
 	}
 	.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
 		margin-top: 31px;
+	}
+
+	#blurb{
+		background-color: whitesmoke;
+		opacity: 0.5;
 	}
 }
 
@@ -264,7 +288,7 @@ li{
 
 	
   	#logo-mel {
-	    height: 50px;
+	    height: 70px;
 	    padding-left: 0px;
 	}
 
@@ -274,6 +298,11 @@ li{
 	}
 	.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
 		margin-top: 31px;
+	}
+
+	#blurb{
+		background-color: whitesmoke;
+		opacity: 0.5;
 	}
 }
 
