@@ -48,9 +48,7 @@ body{
 .bangers{
 	font-family: 'Madrigal', cursive;
 }
-.col-md-5{
-	align-content: right;
-}
+
 .joinus{
 	color: darkkhaki;
 	background-color: beige;
@@ -68,10 +66,9 @@ li{
 	font-size: 20px;
 }
 
-.row{
-	margin-right: 10%;
+#blurb{
+	color: black;
 }
-
 
 /* 
   ##Device = Desktops
@@ -80,21 +77,29 @@ li{
 
 @media (min-width: 1281px) and (max-width: 1920px) {
 
-	#sliding-background {
-		margin-top: 130px;
-		background: url(../img/photo-gallery.png) repeat-x;
-		background-size:contain;
-		background-position:top;
-		animation: slide 20s linear infinite;
-		height: 495px;
-	  	width: 7800px;
-	}
+	/*#sliding-background {*/
+	/*	margin-top: 130px;*/
+	/*	background: url(../img/photo-gallery.png) repeat-x;*/
+	/*	background-size:contain;*/
+	/*	background-position:top;*/
+	/*	animation: slide 20s linear infinite;*/
+	/*	height: 495px;*/
+	/*  	width: 7800px;*/
+	/*}*/
 	#logo-mel {
 	    height: 150px;
 	}
 	header {
 		padding: 30px 0px;
 		border-bottom: 0px;
+	}
+
+	li{
+		font-size: 20px;
+	}
+
+	h1{
+		font-size: 45px;
 	}
   
 }
@@ -112,16 +117,24 @@ li{
 	.row{
 		margin-right: 10%;
 	}
+
+	h1{
+		font-size: 40px;
+	}
   
 }
-
 /*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  
+@media (min-width: 992px) and (max-width: 1024px) {
+
+	#blurb{
+		background-color: whitesmoke;
+		opacity: 0.5;
+	}
+
 	#sliding-background {
 		height: 280px;
   		width: 7800px;
