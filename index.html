@@ -19,8 +19,8 @@
     <meta property="og:image" content="https://imgur.com/a/BKtiWcS">
     <meta property="og:type" content="website">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.jpg">
     <link rel="manifest" href="manifest.json">
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <link rel="stylesheet" href="css/normalize.min.css">
@@ -110,7 +110,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="details">
             <div class="col-md-4 text-right">
                 <br>
                 <h1 class="bangers">Details: </h1>
@@ -121,8 +121,8 @@
                     <li><b><u>Guest Name & Age:</u></b> Full Name & Age are required per state requirement for Contact Tracing. </li>
                     <li><b><u>Party Guidelines:</u></b> </li>
                                         <ol>
-                                                <li>To responsibly celebrate this special day, we would like to require for everybody to wear their mask in common areas (i.e) buffet area</li>
-                                                <li>and indoors. Although outdoor dining and entertainment will be set up, we still highly recommend to keep masks on at all times.</li>
+                                                <li>To responsibly celebrate this special day, we would like to require for everybody to wear their mask in common areas (i.e) buffet area and indoors.</li>
+                                                <li>Although outdoor dining and entertainment will be set up, we still highly recommend to keep masks on at all times.</li>
                                                 <li>Let's protect our keikis and kapuna! Give aloha without hugs and kisses.</li>
                                             <li>If you have a recent exposure or are symptomatic we kindly ask you to celebrate with us virtually.</li>
                                             <li>Mahalo for your understanding.</li>
@@ -135,194 +135,6 @@
 
 </section>
 
-<!--
-<section class="rsvp text-center" id="rsvp">
-
-    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
-                    </button>
-                    <div class="section-padding">
-                        <h3>Thank you!</h3>
-                        &lt;!&ndash;                         <p>We are excited to play with you!</p><br>
-                                                <p>We will update the website for any further announcements.</p>
-                        &lt;!&ndash; <div id="add-to-cal"></div>
-                    </div>
-                </div>
-            </div>&lt;!&ndash; /.modal-content
-        </div>&lt;!&ndash; /.modal-dialog
-    </div>&lt;!&ndash; /.modal
-
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <h3>Please RSVP here:</h3>
-                &lt;!&ndash; <p>Please fill </p>
-                <form id="rsvp-form" class="rsvp-form" data-email="earana.wo@gmail.com"
-                      action="https://script.google.com/macros/s/AKfycbxhyRRb29N0rFTP71nww9zomhwbiBh3slho-WgLxWSErMKU5XezTEUbJjvEKugkqbl1/exec"
-                      method="POST">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-8">
-                            <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="guest1" class=""
-                                                                 placeholder="Your full name"
-                                                                 required>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="form-input-group">
-                                <i class="fa fa-birthday-cake"></i><input type="number" name="guest1age" class=""
-                                                                          placeholder="Your age"
-                                                                          required>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-                    <div id="code4" style="display: none">
-                        <div class="row">
-                            &lt;!&ndash;  <div class="col-md-12 col-sm-12">
-                                 <div class="form-input-group">
-                                     <i class="fa fa-user"></i><input name="guest4-1" class=""
-                                                                      placeholder="Your name"
-                                                                      >
-                                 </div>
-                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-8 col-sm-8">
-                                <div class="form-input-group">
-                                    <i class="fa fa-user"></i><input name="guest4-2" class=""
-                                                                     placeholder="Guest 2's full name (optional)"
-                                >
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="form-input-group">
-                                    <i class="fa fa-birthday-cake"></i><input name="guest4-2age"  class=""
-                                                                              placeholder="Guest 2 age"
-                                >
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-8 col-sm-8">
-                                <div class="form-input-group">
-                                    <i class="fa fa-user"></i><input name="guest4-3" class=""
-                                                                     placeholder="Guest 3's full name (optional)"
-                                >
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="form-input-group">
-                                    <i class="fa fa-birthday-cake"></i><input name="guest4-3age" class=""
-                                                                              placeholder="Guest 3 age"
-                                >
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-8 col-sm-8">
-                                <div class="form-input-group">
-                                    <i class="fa fa-user"></i><input name="guest4-4" class=""
-                                                                     placeholder="Guest 4's full name (optional)"
-                                >
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="form-input-group">
-                                    <i class="fa fa-birthday-cake"></i><input name="guest4-4age" class=""
-                                                                              placeholder="Guest 4 age"
-                                >
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-
-
-                    <div id="code2" style="display: none">
-
-                        <div class="row">
-                            <div class="col-md-8 col-sm-8">
-                                <div class="form-input-group">
-                                    <i class="fa fa-user"></i><input name="guest2-2" class=""
-                                                                     placeholder="Guest 2's full name (optional)"
-                                >
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="form-input-group">
-                                    <i class="fa fa-birthday-cake"></i><input name="guest2-2age" class=""
-                                                                              placeholder="Guest 2 age"
-                                >
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-
-
-
-                    <div id="code3" style="display: none">
-
-                        <div class="row">
-                            <div class="col-md-8 col-sm-8">
-                                <div class="form-input-group">
-                                    <i class="fa fa-user"></i><input name="guest3-2" class=""
-                                                                     placeholder="Guest 2's full name (optional)"
-                                >
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="form-input-group">
-                                    <i class="fa fa-birthday-cake"></i><input name="guest3-2age" class=""
-                                                                              placeholder="Guest 2 age"
-                                >
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-8 col-sm-8">
-                                <div class="form-input-group">
-                                    <i class="fa fa-user"></i><input name="guest3-3" class=""
-                                                                     placeholder="Guest 3's full name (optional)"
-                                >
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="form-input-group">
-                                    <i class="fa fa-birthday-cake"></i><input name="guest3-3age" class=""
-                                                                              placeholder="Guest 3 age"
-                                >
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-12" id="alert-wrapper"></div>
-                    </div>
-                    <button class="btn-fill rsvp-btn">
-                        Submit!
-                    </button>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>-->
 <section class="rsvp text-center" id="rsvp">
 
     <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
@@ -350,17 +162,17 @@
                 <h3>Please RSVP here:</h3>
                 <!-- <p>Please fill </p> -->
                 <form id="rsvp-form" class="rsvp-form" data-email="ellamae207@gmail.com"
-                      action="https://script.google.com/macros/s/AKfycbyMPBnYbKw5jJrs9QCvjQVuw5UKztk0lYZQqpRtRJBodAqO_gC8E-EwpPof4ohQNvP9/exec"
+                      action="https://script.google.com/macros/s/AKfycbxhyRRb29N0rFTP71nww9zomhwbiBh3slho-WgLxWSErMKU5XezTEUbJjvEKugkqbl1/exec"
                       method="POST">
                     <div class="row">
-                        <div class="col-md-8 col-sm-8">
+                        <div class="col-md-7 col-sm-7">
                             <div class="form-input-group">
                                 <i class="fa fa-user"></i><input name="guest1" class=""
                                                                  placeholder="Your full name"
                                                                  required>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4">
+                        <div class="col-md-5 col-sm-5">
                             <div class="form-input-group">
                                 <i class="fa fa-birthday-cake"></i><input type="number" name="guest1age" class=""
                                                                           placeholder="Your age"
@@ -383,14 +195,14 @@
                              </div> -->
                         </div>
                         <div class="row">
-                            <div class="col-md-8 col-sm-8">
+                            <div class="col-md-7 col-sm-7">
                                 <div class="form-input-group">
                                     <i class="fa fa-user"></i><input name="guest4-2" class=""
                                                                      placeholder="Guest 2's full name (optional)"
                                 >
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-4">
+                            <div class="col-md-5 col-sm-5">
                                 <div class="form-input-group">
                                     <i class="fa fa-birthday-cake"></i><input name="guest4-2age"  class=""
                                                                               placeholder="Guest 2 age"
@@ -399,14 +211,14 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-8 col-sm-8">
+                            <div class="col-md-7 col-sm-7">
                                 <div class="form-input-group">
                                     <i class="fa fa-user"></i><input name="guest4-3" class=""
                                                                      placeholder="Guest 3's full name (optional)"
                                 >
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-4">
+                            <div class="col-md-5 col-sm-5">
                                 <div class="form-input-group">
                                     <i class="fa fa-birthday-cake"></i><input name="guest4-3age" class=""
                                                                               placeholder="Guest 3 age"
@@ -415,14 +227,14 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-8 col-sm-8">
+                            <div class="col-md-7 col-sm-7">
                                 <div class="form-input-group">
                                     <i class="fa fa-user"></i><input name="guest4-4" class=""
                                                                      placeholder="Guest 4's full name (optional)"
                                 >
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-4">
+                            <div class="col-md-5 col-sm-5">
                                 <div class="form-input-group">
                                     <i class="fa fa-birthday-cake"></i><input name="guest4-4age" class=""
                                                                               placeholder="Guest 4 age"
@@ -439,14 +251,14 @@
                     <div id="code2" style="display: none">
 
                         <div class="row">
-                            <div class="col-md-8 col-sm-8">
+                            <div class="col-md-7 col-sm-7">
                                 <div class="form-input-group">
                                     <i class="fa fa-user"></i><input name="guest2-2" class=""
                                                                      placeholder="Guest 2's full name (optional)"
                                 >
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-4">
+                            <div class="col-md-5 col-sm-5">
                                 <div class="form-input-group">
                                     <i class="fa fa-birthday-cake"></i><input name="guest2-2age" class=""
                                                                               placeholder="Guest 2 age"
@@ -464,14 +276,14 @@
                     <div id="code3" style="display: none">
 
                         <div class="row">
-                            <div class="col-md-8 col-sm-8">
+                            <div class="col-md-7 col-sm-7">
                                 <div class="form-input-group">
                                     <i class="fa fa-user"></i><input name="guest3-2" class=""
                                                                      placeholder="Guest 2's full name (optional)"
                                 >
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-4">
+                            <div class="col-md-5 col-sm-5">
                                 <div class="form-input-group">
                                     <i class="fa fa-birthday-cake"></i><input name="guest3-2age" class=""
                                                                               placeholder="Guest 2 age"
@@ -480,14 +292,14 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-8 col-sm-8">
+                            <div class="col-md-7 col-sm-7">
                                 <div class="form-input-group">
                                     <i class="fa fa-user"></i><input name="guest3-3" class=""
                                                                      placeholder="Guest 3's full name (optional)"
                                 >
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-4">
+                            <div class="col-md-5 col-sm-5">
                                 <div class="form-input-group">
                                     <i class="fa fa-birthday-cake"></i><input name="guest3-3age" class=""
                                                                               placeholder="Guest 3 age"
@@ -518,29 +330,34 @@
 </section>
 
 
-<!--<footer>-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-sm-12 text-center content">-->
-<!--                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>-->
-<!--                &lt;!&ndash; <p>Crafted by Mom with lots of <span class="fa fa-heart pulse2"></span> for Melton</p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</footer>-->
+
+
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center content">
+                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 <script> window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 }
 </script>
 
-<script>    
+<script>
     if (window.location.search.indexOf('code=1') > -1) {
         var codenumber1 = document.getElementById('code1');
         codenumber1.style.display = 'block';
-    } 
+    }
     if (window.location.search.indexOf('code=2') > -1) {
         var codenumber2 = document.getElementById('code2');
         codenumber2.style.display = 'block';
